@@ -1,0 +1,171 @@
+body {
+	background: #eee;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+	outline: none;
+}
+a:hover, a:focus {text-decoration: none;}
+.wrapper {
+	margin-top: 80px;
+	margin-bottom: 80px;
+  }
+  /* Form */
+.form-signin {
+	max-width: 380px;
+	padding: 15px 35px 45px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.form-signin label {
+	color: #bbb2b2;
+}
+.form-signin .form-signin__heading,
+.form-signin .checkbox {
+	margin-bottom: 30px;
+}
+.form-signin .checkbox {
+	font-weight: normal;
+}
+.form-signin .form-control {
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+.form-signin input[type="text"],
+.form-signin input[type="email"],
+.form-signin input[type="file"] {
+	margin-bottom: 20px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+	margin-bottom: 20px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.form-signin__btn {
+	margin-bottom: 15px;
+}
+.form-error {
+	line-height: 30px;
+	color: #cc0033;;
+	font-size: 14px;
+}
+.form-success {
+	line-height: 30px;
+	color: #49c50c;
+	font-size: 14px;
+}
+.form__checkbox {
+	margin-bottom: 20px;
+}
+
+/* default navbar */
+.navbar-default {
+	background-color: #337ab7;
+	border-color: #4290d4;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover ,
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	color: #fff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	background-color: #337ab7;
+}
+
+/* Post form */
+
+.posts-container {
+	width: 520px;
+	margin-top: 20px;
+}
+.posts-container .button-group {
+	margin-bottom: 20px;
+}
+.posts {
+	clear: both;
+	list-style: none;
+	padding-left: 0;
+	width: 100%;
+}
+.posts li {
+	background-color: #fff;
+	border: 1px solid #d8d8d8;
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	word-wrap: break-word;
+	min-height: 42px;
+}
+.posts-username {
+    color: green;
+    font-weight: bold;
+}
+
+.like-form {
+	display: inline-block;
+	margin: 5px;
+}
+.like-btn {
+	background: none;
+	padding: 0px;
+}
+.heart-svg {
+	cursor: pointer;
+	overflow: visible;
+	width: 30px;
+    margin-top: -5px;
+}
+.heart-svg:hover {
+	fill: #ff7373;
+}
+
+/* my profile */
+.profile-username {
+	color: #464679;
+}
+.post-img {
+	max-width: 100%;
+}
+
+input[type="file"] {
+	display: inline-block;
+}
+
+.profile-post-btn {
+	float: right;
+	width: 100px;
+    margin-right: 10px;
+}
+
+.profile-img {
+	max-width: 120px;
+	height: auto;
+}
+.copyright-text {
+	color: #969696;
+    font-size: 12px;
+}
+
+/* index page search form */
+.search-form {
+	padding-top: 12px;
+}
